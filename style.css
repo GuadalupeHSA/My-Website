@@ -1,0 +1,32 @@
+/* this a comment  */
+
+body {
+	background-color: #3985B3;
+	font-family: oblique bold 180% cursive, sans-serif;
+	color: #F9D301;
+	/*text-align: center;*/
+}
+
+h1 {
+	font-family: oblique bold 180% cursive, serif;
+}
+
+/* # is for id */
+#container {
+	margin: 100px auto;
+	/*width: 600px;*/
+	min-width: 650px;
+	max-width: 650px;
+}
+
+/* . is for class */
+img.link {
+	/*width: 200px;*/
+	width: 100%;
+	border: 4px ridge gold;
+}
+
+#choices {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
